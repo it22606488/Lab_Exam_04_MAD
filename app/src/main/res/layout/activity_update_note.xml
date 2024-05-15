@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
+    android:background="@drawable/bg4"
     tools:context=".UpdateNoteActivity">
 
     <TextView
@@ -37,6 +38,7 @@
         android:layout_height="60dp"
         android:id="@+id/updateTitleEditText"
         android:hint="Enter the title"
+        android:textColor="@color/white"
         android:padding="12dp"
         android:textSize="20sp"
         android:layout_below="@+id/editNoteHeading"
@@ -57,6 +59,7 @@
         android:textSize="18sp"
         android:layout_marginRight="8dp"
         android:layout_marginLeft="8dp"
+        android:textColor="@color/white"
         android:layout_marginBottom="8dp"
         android:background="@drawable/orange_border"
         android:layout_below="@id/updateTitleEditText"
